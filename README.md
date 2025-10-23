@@ -55,13 +55,17 @@ PASO 5.Observar los resultados en tiempo real a través de los listeners:
 El plan de pruebas está diseñado en Apache JMeter y contiene los siguientes componentes:
 
 Plan de Pruebas
-CSV Data Set Config: configuración de datos de entrada para escenarios dinámicos.
-Grupo de Hilos: define el número de usuarios virtuales y duración de la prueba.
-Petición HTTP: solicitud al endpoint bajo prueba.
-Gestor de Cabecera HTTP: define headers como Content-Type, Authorization, etc.
-Aserción de Respuesta: valida códigos de estado y contenido esperado.
-Ver Árbol de Resultados: muestra respuestas individuales.
-Informe Agregado: consolida métricas como TPS, latencia, errores, percentiles.
+-CSV Data Set Config: configuración de datos de entrada para escenarios dinámicos.
+
+-Grupo de Hilos: define el número de usuarios virtuales y duración de la prueba.
+
+-Petición HTTP: solicitud al endpoint bajo prueba.
+
+-Gestor de Cabecera HTTP: define headers como Content-Type, Authorization, etc.
+
+-Ver Árbol de Resultados: muestra respuestas individuales.
+
+-Informe Agregado: consolida métricas como TPS, latencia, errores, percentiles.
 
 markdown
 Copiar código
@@ -83,4 +87,5 @@ git clone https://github.com/kevingarciamontes/RetoSoftkaPerformance.git
 
 
 ##  Autor : Kevin Garcia Montes
+
 
