@@ -85,7 +85,11 @@ Copiar código
 git clone https://github.com/kevingarciamontes/RetoSoftkaPerformance.git
 
 
-
+👤 Autor
+Kevin Garcia Montes
+📧 kevingarciamontes@gmail.com
+📱 +57 300 438 26 52
 ##  Autor : Kevin Garcia Montes
+
 
 
