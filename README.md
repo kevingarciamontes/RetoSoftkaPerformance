@@ -33,28 +33,33 @@ Se busca identificar cuellos de botella, límites de capacidad y métricas clave
 
 ---
 
-## 🧠 Tipos de Pruebas Implementadas
+#▶️ Cómo Ejecutar el Proyecto
 
-1. **Smoke Test:** Validación rápida del entorno y los endpoints.
-2. **Load Test:** Verifica el comportamiento del sistema con carga esperada.
-3. **Stress Test:** Evalúa los límites y la estabilidad bajo alta concurrencia.
-4. **Spike Test:** Observa la respuesta ante picos repentinos de tráfico.
-5. **Endurance Test:** Mide la estabilidad y consumo de recursos durante largos periodos.
+Abrir Apache JMeter y cargar el archivo .jmx correspondiente al plan de pruebas.
+Verificar que el archivo CSV esté ubicado correctamente y que las variables estén bien definidas.
+Configurar el número de hilos (usuarios virtuales), ramp-up y duración en el componente Thread Group.
+Iniciar la ejecución con el botón Start o presionando Ctrl + R.
+Observar los resultados en tiempo real a través de los listeners:
+Ver Árbol de Resultados
+Informe Agregado
+Tabla de Resultados
+Gráficos de rendimiento
 
 ---
 
-## 🧪 Estructura del Proyecto
 
-performance-tests/
-├── scripts/ # Scripts de ejecución y análisis
-├── tests/ # Escenarios de prueba (.jmx, .js, .scala, etc.)
-│ ├── load_test.jmx
-│ ├── stress_test.jmx
-│ └── spike_test.jmx
-├── reports/ # Resultados y reportes generados
-│ └── summary.html
-├── data/ # Archivos CSV o JSON con datos de prueba
-└── README.md
+
+🧪 Estructura del Plan de Pruebas
+El plan de pruebas está diseñado en Apache JMeter y contiene los siguientes componentes:
+
+Plan de Pruebas
+CSV Data Set Config: configuración de datos de entrada para escenarios dinámicos.
+Grupo de Hilos: define el número de usuarios virtuales y duración de la prueba.
+Petición HTTP: solicitud al endpoint bajo prueba.
+Gestor de Cabecera HTTP: define headers como Content-Type, Authorization, etc.
+Aserción de Respuesta: valida códigos de estado y contenido esperado.
+Ver Árbol de Resultados: muestra respuestas individuales.
+Informe Agregado: consolida métricas como TPS, latencia, errores, percentiles.
 
 markdown
 Copiar código
@@ -72,6 +77,7 @@ Copiar código
 ```bash
 # Clonar el repositorio
 git clone https://github.com/kevingarciamontes/RetoSoftkaPerformance.git
+
 
 
 ##  Autor : Kevin Garcia Montes
