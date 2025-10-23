@@ -35,15 +35,17 @@ Se busca identificar cuellos de botella, límites de capacidad y métricas clave
 
 #▶️ Cómo Ejecutar el Proyecto
 
-Abrir Apache JMeter y cargar el archivo .jmx correspondiente al plan de pruebas.
-Verificar que el archivo CSV esté ubicado correctamente y que las variables estén bien definidas.
-Configurar el número de hilos (usuarios virtuales), ramp-up y duración en el componente Thread Group.
-Iniciar la ejecución con el botón Start o presionando Ctrl + R.
-Observar los resultados en tiempo real a través de los listeners:
-Ver Árbol de Resultados
-Informe Agregado
-Tabla de Resultados
-Gráficos de rendimiento
+PASO 1.Abrir Apache JMeter y cargar el archivo .jmx correspondiente al plan de pruebas.
+PASO 2.Verificar que el archivo CSV esté ubicado correctamente y que las variables estén bien definidas.
+PASO 3.Configurar el número de hilos (usuarios virtuales), ramp-up y duración en el componente Thread Group.
+PASO 4.Iniciar la ejecución con el botón Start o presionando Ctrl + R.
+PASO 5.Observar los resultados en tiempo real a través de los listeners:
+
+
+---Ver Árbol de Resultados
+-----Informe Agregado
+-----Tabla de Resultados
+--------Gráficos de rendimiento
 
 ---
 
@@ -81,3 +83,4 @@ git clone https://github.com/kevingarciamontes/RetoSoftkaPerformance.git
 
 
 ##  Autor : Kevin Garcia Montes
+
